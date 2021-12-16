@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import React, { useState , setClick } from 'react';
+import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { NavLink } from 'react-router-dom'
 import PowerButton from '../subComponents/PowerButton';
