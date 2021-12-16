@@ -10,7 +10,7 @@ https://react-portfolio-sigma.vercel.app/ <br />
 Design in : https://www.figma.com/ <br />
 Svg Icons from :https://fontawesome.com/  <br />
 
-This project was bootstrapped with [React-Portfolio-starter-code-files](https://github.com/codebucks27/React-Portfolio-starter-code-files).
+
 
 ## Available Scripts
 
