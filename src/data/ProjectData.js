@@ -24,8 +24,8 @@ export const Project = [
         description:" A simple tutor market place for law students deployed on heroku. ",
         tags:["ruby","ruby on rails","bootstrap"],
 
-        demo:"https://github.com/Just-Kundai/Project-1",
-        github:"https://tutormarketplace2021.herokuapp.com/"
+        demo:"https://tutormarketplace2021.herokuapp.com/",
+        github:"https://github.com/Just-Kundai/Project-1"
     },
     {
         id:4,
