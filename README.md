@@ -3,7 +3,7 @@
 Created my first react portfolio using ReactJs. <br />
 
 View Demo👇🏾: <br />
-https://react-portfolio-sigma.vercel.app/ <br />
+https://kundaikhuleyaportfolio.vercel.app/blog <br />
 
 ### Resources Used in This Project
 
