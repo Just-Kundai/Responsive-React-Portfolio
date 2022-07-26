@@ -22,7 +22,7 @@ overflow: hidden;
 
 
 const Main =  styled.div`
-  border: 3px solid ${(props) => props.theme.text};
+  border: 2px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
   padding: 2rem;
   width: 80vw;
@@ -63,7 +63,7 @@ I quickly learned that just because it is your passion does not mean it will be 
 <br/> <br/>
 I am inspired by environments that challenge me and inspire me to do more out of my comfort zone and my goal is to join a collaborative team that values intellectual openness. Please feel free to connect on any of the social links  or by clicking the 'Say Hi👋🏾' button.
 <br/> <br/>
-Looking forward to hearing from you.
+Looking forward to hearing from you 😃.
 
         </Main>
 
