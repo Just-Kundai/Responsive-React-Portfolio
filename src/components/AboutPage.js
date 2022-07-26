@@ -22,7 +22,7 @@ overflow: hidden;
 
 
 const Main =  styled.div`
-  border: 2px solid ${(props) => props.theme.text};
+  border: 3px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
   padding: 2rem;
   width: 80vw;
