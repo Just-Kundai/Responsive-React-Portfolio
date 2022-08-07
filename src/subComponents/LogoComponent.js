@@ -10,9 +10,9 @@ display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
 font-family: 'Pacifico',cursive;
 position: flex;
-left: 3rem;
+left: 2rem;
 top: 2rem;
-z-index:10vw;
+z-index:20vw;
 `
 
 const LogoComponent = (props) => {
