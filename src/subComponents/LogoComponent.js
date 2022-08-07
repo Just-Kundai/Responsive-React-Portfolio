@@ -17,7 +17,7 @@ z-index:3;
 
 const LogoComponent = (props) => {
     return (
-        <Logo color={props.theme} display={flex}>
+        <Logo color={props.theme} display=flex >
           <div>
           Just Kundai
           </div>
