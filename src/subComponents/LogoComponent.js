@@ -10,7 +10,7 @@ display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
 font-family: 'Pacifico',cursive;
 position: flex;
-left: 3rem;
+left: 1rem;
 top: 2rem;
 z-index:10;
 `
