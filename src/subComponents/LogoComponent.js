@@ -9,9 +9,8 @@ const Logo = styled.h1`
 display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
 font-family: 'Pacifico',cursive;
-position: flex-wrap;
-
-left: 2rem;
+position: flex;
+left: 3rem;
 top: 2rem;
 z-index:3;
 `
