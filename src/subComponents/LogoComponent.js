@@ -12,7 +12,7 @@ font-family: 'Pacifico',cursive;
 position: flex;
 left: 3rem;
 top: 2rem;
-z-index:3;
+z-index:10vw;
 `
 
 const LogoComponent = (props) => {
