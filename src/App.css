@@ -15,7 +15,7 @@
 
 }
 
-.Logo {
+.LogoComponent {
   display:flex;
   flex-wrap: wrap;
   font-size: 10vw;
