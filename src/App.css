@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+
 }
 
 .App-logo {
@@ -13,6 +12,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+}
+
+.Logo {
+  display:flex;
+  
 }
 
 .App-header {
