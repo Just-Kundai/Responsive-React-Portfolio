@@ -19,7 +19,7 @@ const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
           <div>
-          Kundai Khuleya
+          Just Kundai
           </div>
 
         </Logo>

@@ -128,11 +128,11 @@ const Main = () => {
     const handleClick = () => setClick(!click);
 
   return (
-    
+
     <MainContainer>
      <DarkDiv click={click}/>
        <Container>
-       <PowerButton />
+       
        <LogoComponent theme={click ? 'dark' : 'light'}/>
        <SocialIcons  theme={click ? 'dark' : 'light'} />
 
