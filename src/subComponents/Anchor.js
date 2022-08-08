@@ -74,7 +74,7 @@ const AnchorComponent = (props) => {
                         return <Link key={id} width={25} height={25} fill='currentColor' className="chain" />
                     })
                 }
-                <Anchor width={70} height={70} fill='currentColor'/>
+                <Anchor width={70} height={10} fill='currentColor'/>
             </Slider>
         </Container>
     )
