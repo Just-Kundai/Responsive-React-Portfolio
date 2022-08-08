@@ -18,12 +18,11 @@ z-index:3;
 const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
+        <NavLink to="/">
           <div>
-            <NavLink to="/">
           Just Kundai
           </div>
-
-
+        </NavLink>
         </Logo>
     )
 }
