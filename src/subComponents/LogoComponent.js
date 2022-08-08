@@ -1,9 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import { DarkTheme } from '../components/Themes'
-
-
 
 
 
@@ -22,8 +19,7 @@ const LogoComponent = (props) => {
         <Logo color={props.theme}>
 
           <div>
-          Just Kundai
-
+          Kundai
           </div>
 
         </Logo>
