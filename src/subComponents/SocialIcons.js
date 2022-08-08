@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-position: fixed;
+position: relative;
 bottom: 0;
 left: 2rem;
 
