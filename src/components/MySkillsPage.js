@@ -94,7 +94,7 @@ In addition to my technical skills, I have great soft skills.
 <strong>Some of them include</strong>
 <ul>
     <li>
-        Excellent verbal, written and digital communication
+        Excellent communication skills
     </li>
     <li>
         Collaboration and teamwork
