@@ -13,7 +13,7 @@ background: ${props => props.theme.body};
 background-color: #ffddcf;
 width: 100vw;
 height: 100vh;
-overflow: hidden;
+overflow:hidden;
 
 position: relative;
 
@@ -49,7 +49,7 @@ const PROJECTS = styled(NavLink)`
 color: ${props => props.click ? props.theme.body : props.theme.text};
 position: absolute;
 top: 50%;
-left: calc(5rem + 5vw);
+left: calc(1rem + 2vw);
 transform: translate(-50%, -50%) rotate(-90deg) ;
 text-decoration: none;
 z-index:1;
@@ -132,28 +132,45 @@ const Main = () => {
     <MainContainer>
      <DarkDiv click={click}/>
        <Container>
-
+       <PowerButton />
        <LogoComponent theme={click ? 'dark' : 'light'}/>
        <SocialIcons  theme={click ? 'dark' : 'light'} />
 
 
        <Center click={click}>
            <YinYang onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
-           <span>click here</span>
+           <span> click </span>
        </Center>
 
        <Contact target="_blank" to={{pathname:"mailto:kundaikhuleya@outlook.com"}}>
           <motion.h2
 
-          whileHover={{scale: 1.1}}
-          whhileTap={{scale: 0.9}}
+          initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
 
           >
-          Say hi 👋🏾...
+          Say hi 👋🏾
           </motion.h2>
        </Contact>
        <BLOG to="/blog">
            <motion.h2
+
+           initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
 
            whileHover={{scale: 1.1}}
            whhileTap={{scale: 0.9}}
@@ -164,6 +181,15 @@ const Main = () => {
        </BLOG>
        <PROJECTS to="/projects" click={click}>
            <motion.h2
+
+           initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
 
            whileHover={{scale: 1.1}}
            whhileTap={{scale: 0.9}}
@@ -176,6 +202,15 @@ const Main = () => {
        <ABOUT to="/about" click={click}>
            <motion.h2
 
+           initial={{
+                    y:200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+
            whileHover={{scale: 1.1}}
            whhileTap={{scale: 0.9}}
 
@@ -186,6 +221,15 @@ const Main = () => {
        <SKILLS to="/skills">
            <motion.h2
 
+           initial={{
+                    y:200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+
            whileHover={{scale: 1.1}}
            whhileTap={{scale: 0.9}}
 
@@ -193,6 +237,7 @@ const Main = () => {
               My Skills
            </motion.h2>
        </SKILLS>
+
        </BottomBar>
 
 
