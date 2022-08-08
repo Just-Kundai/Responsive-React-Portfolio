@@ -103,9 +103,9 @@ In addition to my technical skills, I have great soft skills.
         Emotional intelligence
     </li>
     <li>
-        Grit
+        Problem Solving
     </li>
-    
+
 </ul>
 </Description>
 
