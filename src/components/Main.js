@@ -139,7 +139,7 @@ const Main = () => {
 
        <Center click={click}>
            <YinYang onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
-           <span> click </span>
+           <span> click here </span>
        </Center>
 
        <Contact target="_blank" to={{pathname:"mailto:kundaikhuleya@outlook.com"}}>
