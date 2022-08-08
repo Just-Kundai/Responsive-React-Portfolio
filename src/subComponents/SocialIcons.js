@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-position: relative;
+position: fixed;
 bottom: 0;
 left: 2rem;
 
@@ -21,7 +21,7 @@ z-index:3;
 `
 const Line = styled.span`
 width: 2px;
-height: 50px;
+height: 8rem;
 background-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
 `
 
