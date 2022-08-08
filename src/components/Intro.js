@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import {motion} from 'framer-motion';
-
 import Me from '../assets/Images/profile-img.png';
 
 const Box = styled(motion.div)`
@@ -13,7 +12,7 @@ transform: translate(-50%, -50%);
 
 
 width: 65vw;
-height: 55vh;
+height:55vh;
 display: flex;
 
 background: linear-gradient(
@@ -28,6 +27,7 @@ background: linear-gradient(
 background-size: 100% 2px;
     border-left: 2px solid ${props => props.theme.body};
     border-right: 2px solid ${props => props.theme.text};
+
     z-index:1;
 `
 
@@ -40,7 +40,7 @@ display: flex;
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%,0%);
   width: 100%;
   height: auto;
 }
@@ -50,7 +50,6 @@ display: flex;
 const Text = styled.div`
 font-size: calc(1em + 1.5vw);
 color: ${props => props.theme.body};
-
 padding: 2rem;
 cursor: pointer;
 
