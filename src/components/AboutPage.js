@@ -34,6 +34,7 @@ const Main =  styled.div`
   align-items: center;
   font-size: calc(0.3rem + 1vw);
  backdrop-filter: blur(4px);
+ overflow: auto;
 
   position: absolute;
   left: calc(5rem + 5vw);
