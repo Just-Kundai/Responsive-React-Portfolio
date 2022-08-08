@@ -37,7 +37,7 @@ position: relative;
 display: flex;
 
 .pic{
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
