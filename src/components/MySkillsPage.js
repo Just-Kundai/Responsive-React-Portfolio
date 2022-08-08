@@ -18,6 +18,8 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+
+
 `
 
 const Main = styled.div`
@@ -30,10 +32,12 @@ height: 60vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
+
 font-family: 'Ubuntu Mono',monospace;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+
 &:hover{
     color: ${props => props.theme.body};
     background-color: ${props => props.theme.text};
@@ -45,11 +49,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: calc(1em + 1vw);
+
 ${Main}:hover &{
     &>*{
         fill:${props => props.theme.body};
     }
 }
+
 &>*:first-child{
 margin-right: 1rem;
 }
@@ -59,11 +65,14 @@ const Description = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.6em + 1vw);
 padding: 0.5rem 0;
+
+
 ${Main}:hover &{
 
         color:${props => props.theme.body};
 
 }
+
 strong{
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -114,7 +123,7 @@ In addition to my technical skills, I have great soft skills.
             </Main>
             <Main>
 <Title>
-    <Developer width={40} height={40} /> Frontend Developer
+    <Developer width={40} height={40} /> Developer
 </Title>
 <Description>
 I enjoy bringing ideas to life and problem solving in a technical way.
