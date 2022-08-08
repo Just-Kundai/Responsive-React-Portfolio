@@ -19,9 +19,10 @@ const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
           <div>
+            <NavLink to="/">
           Just Kundai
           </div>
-          <NavLink to="/">
+
 
         </Logo>
     )
