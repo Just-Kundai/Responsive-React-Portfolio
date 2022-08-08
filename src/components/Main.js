@@ -11,7 +11,7 @@ import Intro from './Intro';
 const MainContainer = styled.div`
 background: ${props => props.theme.body};
 background-color: #ffddcf;
-width: 100wv;
+width: 100vw;
 height: 100vh;
 overflow: hidden;
 
@@ -132,7 +132,7 @@ const Main = () => {
     <MainContainer>
      <DarkDiv click={click}/>
        <Container>
-       
+
        <LogoComponent theme={click ? 'dark' : 'light'}/>
        <SocialIcons  theme={click ? 'dark' : 'light'} />
 
