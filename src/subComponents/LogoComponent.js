@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { NavLink } from 'react-router-dom'
+
 import { DarkTheme } from '../components/Themes'
 
 
@@ -23,9 +23,9 @@ const LogoComponent = (props) => {
 
           <div>
           Just Kundai
-          <NavLink to="/">
+
           </div>
-        </NavLink>
+
         </Logo>
     )
 }
