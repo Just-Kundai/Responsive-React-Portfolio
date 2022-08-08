@@ -66,7 +66,7 @@ const AnchorComponent = (props) => {
         <Container>
         <PreDisplay ref={hiddenRef} className='hidden'>
 
-        <Anchor width={70} height={50} fill='currentColor'/>
+        <Anchor width={70} height={40} fill='currentColor'/>
     </PreDisplay>
             <Slider ref={ref}>
                 {
