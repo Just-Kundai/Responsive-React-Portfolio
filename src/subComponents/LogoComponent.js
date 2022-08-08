@@ -21,6 +21,7 @@ const LogoComponent = (props) => {
           <div>
           Just Kundai
           </div>
+          <NavLink to="/">
 
         </Logo>
     )
