@@ -105,9 +105,7 @@ In addition to my technical skills, I have great soft skills.
     <li>
         Grit
     </li>
-    <li>
-        Problem solving and creativity
-    </li>
+    
 </ul>
 </Description>
 
