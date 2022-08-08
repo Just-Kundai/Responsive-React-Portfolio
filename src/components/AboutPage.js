@@ -16,7 +16,7 @@ const Box = styled.div`
 background-color: ${props => props.theme.body};
 width: 100vw;
 height: 100vh;
-position: relative;
+position: absolute;
 overflow: auto;
 `
 
@@ -33,9 +33,8 @@ const Main =  styled.div`
   justify-content: center;
   align-items: center;
   font-size: calc(0.3rem + 1vw);
- backdrop-filter: blur(4px);
- overflow: auto;
-
+  backdrop-filter: blur(4px);
+  overflow: auto;
   position: absolute;
   left: calc(5rem + 5vw);
   top: 10rem;
