@@ -37,12 +37,12 @@ position: relative;
 display: flex;
 
 .pic{
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 50vw;
-  height: 50vw;
+  width: 100%;
+  height: auto;
 }
 `
 
