@@ -17,14 +17,7 @@ export const Blogs = [
         link:"https://medium.com/@JustKundai/post-bootcamp-blues-my-project-of-the-week-c0a81f163412"
     },
 
-    {
-        id:3,
-        name:"Book Review: The God of Small Things",
-        tags:["book review","softwareengineering"],
-        date:"13 January, 2022",
-        imgSrc:"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590282886i/9777.jpg",
-        link:"https://medium.com/@JustKundai/book-review-the-god-of-small-things-f46264890f88"
-    },
+  
 
 
 
