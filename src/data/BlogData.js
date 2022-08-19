@@ -8,16 +8,9 @@ export const Blogs = [
         link:"https://medium.com/@JustKundai/software-engineering-bootcamp-a-story-about-code-dreams-and-personal-development-1a4efed253e1"
     },
 
-    {
-        id:2,
-        name:"Post-Bootcamp Blues",
-        tags:["codingbootcamp","softwareengineering"],
-        date:"11 January, 2022",
-        imgSrc:"https://miro.medium.com/max/1400/0*oP129kP824gId042.jpg",
-        link:"https://medium.com/@JustKundai/post-bootcamp-blues-my-project-of-the-week-c0a81f163412"
-    },
-
   
+
+
 
 
 
