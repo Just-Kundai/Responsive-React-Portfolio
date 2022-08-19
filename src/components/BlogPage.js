@@ -23,6 +23,7 @@ const Container = styled.div`
 background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
 width: 100%;
 height:auto;
+
 position: relative;
 padding-bottom: 5rem;
 `
@@ -60,7 +61,7 @@ const BlogPage = () => {
     const [numbers, setNumbers] = useState(0);
 
     useEffect(() => {
-        let num = (window.innerHeight - 70)/30;
+        let num = (window.innerHeight - 70)/20;
         setNumbers(parseInt(num));
     }, [])
 
@@ -68,8 +69,8 @@ const BlogPage = () => {
     return (
         <MainContainer
         variants={container}
-        initial='hidden'
-        animate='show'
+        initial= 'hidden'
+        animate= 'show'
         exit={{
             opacity:0, transition:{duration: 0.5}
         }}
